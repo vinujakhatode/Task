@@ -24,8 +24,7 @@ eks_managed_node_groups  = {
       additional_security_group_ids = [aws_security_group.node1.id]
       asg_desired_capacity          = 2
   //    create_iam_role       =false
-  //  iam_role_arn          ="arn:aws:iam::553900043809:user/devops-candidate1"
-  //    iam_role_name         ="devops-candidate1"
+
     }
    
    green= {
@@ -35,8 +34,7 @@ eks_managed_node_groups  = {
       additional_security_group_ids = [aws_security_group.node2.id]
       asg_desired_capacity          = 1
   //    create_iam_role       =false
-//      iam_role_arn          ="arn:aws:iam::553900043809:user/devops-candidate1"
-//      iam_role_name         ="devops-candidate1"
+
 }
  
 
